@@ -439,7 +439,7 @@ pub struct EmailAddress(String);
 // Implementations
 // ------------------------------------------------------------------------------------------------
 
-const LOCAL_PART_MAX_LENGTH: usize = 64;
+const LOCAL_PART_MAX_LENGTH: usize = 128;
 // see: https://www.rfc-editor.org/errata_search.php?rfc=3696&eid=1690
 const DOMAIN_MAX_LENGTH: usize = 254;
 const SUB_DOMAIN_MAX_LENGTH: usize = 63;
